@@ -1,10 +1,9 @@
 
-local padding = 0
 local window_padding = {
-   left = padding,
-   right = padding,
-   top = padding,
-   bottom = padding,
+   left = 0,
+   right = 0,
+   top = 0,
+   bottom = 0,
 }
 
 local M = {
