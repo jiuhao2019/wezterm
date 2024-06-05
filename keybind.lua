@@ -29,7 +29,7 @@ local keys = {  { key = 'y', mods  = "LEADER", action = act { CopyTo            
                 { key = "t", mods = "LEADER", action = act.SpawnTab("DefaultDomain") },
                 { key = "w", mods = "LEADER", action = act.CloseCurrentTab({ confirm = false }) },
 
-                { key = "p", mods = "LEADER", action = act.ActivateTabRelative(-1) },
+                { key = "N", mods = "LEADER", action = act.ActivateTabRelative(-1) },
                 { key = "n", mods = "LEADER", action = act.ActivateTabRelative(1) },
                 { key = "[", mods = "LEADER", action = act.MoveTabRelative(-1) },
                 { key = "]", mods = "LEADER", action = act.MoveTabRelative(1) },
