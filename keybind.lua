@@ -85,10 +85,7 @@ local act = wezterm.action
 
 return {
           disable_default_key_bindings   = true,
-          enable_tab_bar                 = true,
-          use_fancy_tab_bar              = false,
 	  hide_tab_bar_if_only_one_tab   = false,
-          tab_bar_at_bottom              = true,
           show_new_tab_button_in_tab_bar = false,
           leader                         = { key = "z", mods = "CMD", timeout_milliseconds = 3000},
           keys                           = keys,

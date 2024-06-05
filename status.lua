@@ -38,11 +38,10 @@ local function render_battery(battery)
 
    return string.format('%s %s', get_icon(), formatted_percent)
 end
-
 local function update_right_status(window)
    -- "Wed Mar 3 08:14"
    --- @type string
-   local date = wezterm.strftime '%b %-d %a %H:%M'
+   local date = wezterm.strftime '%a %b %-d %H:%M'
 
    --- @type string
    local tilde = wezterm.format {
@@ -57,8 +56,7 @@ local function update_right_status(window)
       battery = render_battery(b)
    end
 
-  -- local status = string.format('%s %s %s ', battery, tilde, date)
-   local status = string.format('%s', date)
+   local status = string.format('%s %s %s ', battery, tilde, date)
    window:set_right_status(wezterm.format {
       { Text = status }
    })
