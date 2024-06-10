@@ -5,8 +5,6 @@ local keys = {  { key = 'y', mods  = "LEADER", action = act { CopyTo            
                 { key = 'p', mods  = "LEADER", action = act { PasteFrom             = "Clipboard"}},  -- 粘贴
 		 -- misc/useful --
                 { key = "F1", mods = "NONE", action = "ActivateCopyMode" },-- copy-mode
-                { key = "F2", mods = "NONE", action = act.ActivateCommandPalette },
-                { key = "F3", mods = "NONE", action = act.ShowLauncher },
                 { key = "F4", mods = "NONE", action = act.ShowTabNavigator },
                 { key = "f", mods = "LEADER", action = act.Search({ CaseInSensitiveString = "" }) },
                 -- rename tab bar
