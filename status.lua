@@ -56,7 +56,8 @@ local function update_right_status(window)
       battery = render_battery(b)
    end
 
-   local status = string.format('%s %s %s ', battery, tilde, date)
+   -- local status = string.format('%s %s %s ', battery, tilde, date)
+   local status = string.format('%s ', date)
    window:set_right_status(wezterm.format {
       { Text = status }
    })
