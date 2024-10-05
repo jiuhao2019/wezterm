@@ -13,8 +13,9 @@ local dark_theme = ({
 	"Brogrammer (base16)", -- [8]
 	"City Streets (terminal.sexy)", -- [9]
 	"Catppuccin Mocha", -- [10]
-	"Dracula",
-})[10]
+	"Dracula", -- [11]
+	"GruvboxDark", --[12]
+})[12]
 
 local light_theme = ({
 	"Catppuccin Latte", -- [1]
