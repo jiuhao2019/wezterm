@@ -14,7 +14,7 @@ local M = {
 	},
 	adjust_window_size_when_changing_font_size = false,
 	-- How many lines of scrollback you want to retain per tab
-	scrollback_lines = 130000,
+	scrollback_lines = 130000000,
 }
 
 if use_background_image then

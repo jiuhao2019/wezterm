@@ -11,6 +11,8 @@ local keys = {
 	{ key = "t", mods = "LEADER", action = act.SpawnTab("DefaultDomain") },
 	{ key = "N", mods = "LEADER", action = act.ActivateTabRelative(-1) },
 	{ key = "n", mods = "LEADER", action = act.ActivateTabRelative(1) },
+	--clear schrollback
+	{ key = "c", mods = "LEADER", action = act.ClearScrollback("ScrollbackAndViewport") },
 	-- panes:
 	{
 		key = "v",
