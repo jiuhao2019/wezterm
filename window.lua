@@ -1,5 +1,5 @@
 local path = require("path")
-local use_background_image = true
+local use_background_image = false
 local window_padding = {
 	left = 0,
 	right = 0,

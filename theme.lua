@@ -15,7 +15,10 @@ local dark_theme = ({
 	"Catppuccin Mocha", -- [10]
 	"Dracula", -- [11]
 	"GruvboxDark", --[12]
-})[12]
+	"Doom Peacock", --[13]
+	"DoomOne", --[14]
+	"Tokyo Night Moon", --[15]
+})[13]
 
 local light_theme = ({
 	"Catppuccin Latte", -- [1]
