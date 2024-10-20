@@ -18,7 +18,7 @@ local dark_theme = ({
 	"Doom Peacock", --[13]
 	"DoomOne", --[14]
 	"Tokyo Night Moon", --[15]
-})[13]
+})[15]
 
 local light_theme = ({
 	"Catppuccin Latte", -- [1]
